@@ -1,20 +1,21 @@
 import React from 'react'
+import QuestionDescription from './components/QuestionPanel'
 
 const CodingEditor = () => {
   return (
     <div>
-      <nav>
-
+      <nav className='bg-gray-800 text-white p-4 text-lg font-semibold'>
+        navigation bar
       </nav>
 
-      <div>
+      <div className='flex h-screen'>
         {/* Aryan Tera kaam niche wale div m */}
-        <div>
-
+        <div className='w-1/2 p-6 border-r'>
+          <QuestionDescription />
         </div>
 
         {/* Ye mera */}
-        <div>
+        <div className='w-1/2 p-6 '>
 
         </div>
       </div>
