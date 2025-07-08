@@ -86,7 +86,7 @@ const CodeEditor = ({question}) => {
                     {supportedLanguages.map((lang) => {
                         // console.log(lang);
                         return(
-                            <option value={`${lang.value}`}>{`${lang.name}`}</option>
+                            <option key={lang.value} value={`${lang.value}`}>{`${lang.name}`}</option>
                         );
                     })}
                     {/* <option value="javascript">JavaScript</option>
