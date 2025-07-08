@@ -30,8 +30,8 @@ const App = () => {
           <QuestionDescription question={question} />
           <div className='flex flex-col-reverse absolute bottom-5 right-5'>
             <div className='w-full h-20 flex p-4 gap-2'>
-              <button onClick={() => setQue_no((prev) => ((prev - 1) > 0 ? prev - 1 : totalProblems - 1))} className='border-2 rounded-sm px-4 cursor-pointer'>Prev</button>
-              <button onClick={() => setQue_no((prev) => ((prev + 1) % totalProblems))} className='bg-[#0d1929] text-white rounded-sm px-4 cursor-pointer'>Next</button>
+              <button onClick={() => setQue_no((prev) => ((prev - 1) > 0 ? prev - 1 : totalProblems - 1))} className='bg-[#0d1929] text-white font-semibold w-[100px] rounded-sm px-4 cursor-pointer'>Prev</button>
+              <button onClick={() => setQue_no((prev) => ((prev + 1) % totalProblems))} className='bg-[#155dfc] text-white rounded-sm px-4 font-semibold w-[100px] cursor-pointer'>Next</button>
             </div>
           </div>
         </div>

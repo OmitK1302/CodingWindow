@@ -29,10 +29,10 @@ const Navbar = ({totalProblems, changeQuesHandler}) => {
         
         <div>
 
-            <div className='flex bg-[#dbeafe] p-2'>
+            <div className='flex bg-[#dbeafe] py-2 px-6'>
                 <div className='w-1/2 flex gap-2 items-center'>
-                    <div className='flex items-center'>
-                        <button onClick={() => sidebarHandler()}>
+                    <div className='flex items-center cursor-pointer'>
+                        <button onClick={() => sidebarHandler()} className='cursor-pointer'>
                             <img width={32} src={showSidebar ? cross : hamburger} alt="question menu" />
                         </button>
                     </div>

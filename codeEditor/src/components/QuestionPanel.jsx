@@ -6,39 +6,17 @@ import boltIcon from '../assets/QueDesc/bolt.png';
 import starIcon from '../assets/QueDesc/star.png';
 
 const QuestionDescription = ({question}) => {
-    const dummyQuestion = question;
-    {/* Dummy Data */}
-    // const dummyQuestion = {
-    //     title: "Fibonacci Sequence Optimization",
-    //     points: "150",
-    //     tags: ["Dynamic Programming", "Mathematics", "Optimization"],
-    //     description: "Implement an efficient algorithm to calculate the nth Fibonacci number. Your solution should handle large values of n efficiently.",
-    //     examples: [
-    //         { 
-    //             input: " n = 10", 
-    //             output: " 55" 
-    //         },
-    //         { 
-    //             input: " n = 7", 
-    //             output: " 13" 
-    //         }
-    //     ],
-    //     constraints: [
-    //         "0 ≤ n ≤ 10^5", 
-    //         "Time limit: 2 seconds",
-    //         "Memory limit: 256 MB"
-    //     ]
-    //   };      
+    const dummyQuestion = question;      
 
     return(
         <div>
         {/* Title + Points + Tags */}
-            <div>
+            <div >
                 {/* Title + Points */}
                 <div className='flex justify-between items-center mb-4'>
                     {/* Title */}
                     <div>
-                        <h1 className='text-2xl font-bold mt-2 flex items-center gap-2'>
+                        <h1 className='text-2xl font-sans font-semibold mt-2 flex items-center gap-2'>
                             {dummyQuestion.problem_no}. {dummyQuestion.title}
                             {/* <img src={glitterIcon} alt="glitter" className="w-6 h-6" /> */}
                         </h1>

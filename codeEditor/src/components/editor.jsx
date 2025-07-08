@@ -118,13 +118,13 @@ const CodeEditor = ({question}) => {
                 <div className="flex gap-4">
                     <button
                     onClick={handleRunCode}
-                    className="bg-[#05a636] hover:bg-[#037325] px-4 py-2 rounded">
+                    className="bg-[#05a636] hover:bg-[#037325] px-4 py-2 rounded cursor-pointer">
                         Run Code
                     </button>
 
                     <button
                     onClick={debugHandler}
-                    className="bg-[#4493f8] hover:bg-[#2f65ab] px-4 py-2 rounded">
+                    className="bg-[#155dfc] hover:bg-[#0f4ac9] px-4 py-2 rounded cursor-pointer">
                         Debug
                     </button>
                 </div>
