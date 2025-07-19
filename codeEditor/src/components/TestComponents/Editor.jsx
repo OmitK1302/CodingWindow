@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Editor, { useMonaco } from "@monaco-editor/react";
-import save from "../assets/CodeEditor/saveIcon.svg";
-import download from "../assets/CodeEditor/downloadIcon.svg";
-import setting from "../assets/CodeEditor/settingIcon.svg";
+import save from "../../assets/CodeEditor/saveIcon.svg";
+import download from "../../assets/CodeEditor/downloadIcon.svg";
+import setting from "../../assets/CodeEditor/settingIcon.svg";
 
 // data
 // import Problems from "../data/Problems";
@@ -73,7 +73,7 @@ const CodeEditor = ({question}) => {
     };
 
     const debugHandler = () => {
-        setOutput("Debug clicked");
+        setOutput("Debug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked");
     }
 
     return (
@@ -140,7 +140,7 @@ const CodeEditor = ({question}) => {
             
 
             <div className="bg-black text-green-200 p-4 rounded h-40 overflow-auto font-mono text-sm">
-                <pre>{output || "Output will appear here ..."}</pre>
+                <pre className="pb-4">{output || "Output will appear here ..."}</pre>
             </div>
         </div>
   );

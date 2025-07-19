@@ -157,6 +157,65 @@ print(max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4]))`
       }
     ]
   },
+  {
+    problem_no: 5,
+    title: "Maximum Subarray Sum II",
+    description: "Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum. Find the contiguous subarray within a 1D array that has the largest sum.",
+    constraints: [
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+      "1 ≤ n ≤ 10⁶",
+      "-10⁴ ≤ arr[i] ≤ 10⁴",
+      "Time limit: 1.5 seconds",
+    ],
+    points: 200,
+    tags: ["Dynamic Programming", "Mathematics", "Array", "optimization"],
+    examples: [
+      { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },
+      { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },
+      { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },
+      { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },
+    ],
+    supportedLanguages: [
+      {
+        id: "javascript",
+        name: "JavaScript",
+        value: "javascript",
+        template: `function maxSubarraySum(arr) {
+  // write your code here...
+}
+
+// Driver code
+console.log(maxSubarraySum([-2,1,-3,4,-1,2,1,-5,4]));`
+      },
+      {
+        id: "python",
+        name: "Python",
+        value: "python",
+        template: `def max_subarray_sum(arr):
+    # write your code here...
+
+# Driver code
+print(max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4]))`
+      }
+    ]
+  },
   
 ];
 

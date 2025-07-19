@@ -1,9 +1,8 @@
 import React from 'react'
-import glitterIcon from '../assets/QueDesc/glitter.png';
-import bookIcon from '../assets/QueDesc/book.svg';
-import docIcon from '../assets/QueDesc/document.svg';
-import boltIcon from '../assets/QueDesc/bolt.png';
-import starIcon from '../assets/QueDesc/star.png';
+import bookIcon from '../../assets/QueDesc/book.svg';
+import docIcon from '../../assets/QueDesc/document.svg';
+import boltIcon from '../../assets/QueDesc/bolt.png';
+import starIcon from '../../assets/QueDesc/star.png';
 
 const QuestionDescription = ({question}) => {
     const dummyQuestion = question;      
@@ -82,22 +81,25 @@ const QuestionDescription = ({question}) => {
             </div>
 
         {/* Constraints */}
-            <h3 className='text-lg font-bold mt-6 mb-2 flex items-center gap-1'>
-                <img src={boltIcon} alt="constraints" className='className="w-5 h-5' />
-                    Constraints:
-            </h3>
-            <ul>
-                {dummyQuestion.constraints.map((item, index) => (
-                    <li key={index} className=" mb-1 text-sm flex items-center gap-2">
-                        <span className='text-gray-400 font-stretch-50%'>
-                            {'>'}
-                        </span>
-                        <code className='inline-block bg-gray-100 px-2 py-1'>
-                            {item}
-                        </code>
-                    </li>
-                ))}
-            </ul>
+            <div>
+
+                <h3 className='text-lg font-bold mt-6 mb-2 flex items-center gap-1'>
+                    <img src={boltIcon} alt="constraints" className='className="w-5 h-5' />
+                        Constraints:
+                </h3>
+                <ul>
+                    {dummyQuestion.constraints.map((item, index) => (
+                        <li key={index} className=" mb-1 text-sm flex items-center gap-2">
+                            <span className='text-gray-400 font-stretch-50%'>
+                                {'>'}
+                            </span>
+                            <code className='inline-block bg-gray-100 px-2 py-1'>
+                                {item}
+                            </code>
+                        </li>
+                    ))}
+                </ul>
+            </div>
            
         </div>
         
