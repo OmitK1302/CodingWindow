@@ -28,7 +28,7 @@ const QuestionDescription = ({question}) => {
                 </div>
 
                 {/* Tags */}
-                <div className='flex gap-2 flex-wrap mb-10' >
+                <div className={`flex gap-2 flex-wrap mb-10 ${!question.shoTag && "hidden"}`}>
                     {dummyQuestion.tags.map((tag, index) => (
                         <span key={index} className='bg-blue-100 font-serif text-blue-600 px-3 py-1 rounded-full text-sm font-medium'>
                             {tag}

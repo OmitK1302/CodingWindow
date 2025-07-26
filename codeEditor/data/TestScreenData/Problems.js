@@ -9,6 +9,7 @@ const problems = [
       "Memory limit: 128 MB"
     ],
     tags: ["Mathematics", "Optimization"],
+    showTags : false,
     points: 150,
     examples: [
       { input: "5", output: "true" },
@@ -50,6 +51,7 @@ print(is_prime(5))`
     ],
     points: 100,
     tags: ["Bit Manipulation", "Mathematics", "Optimization"],
+    showTags : false,
     examples: [
       { input: "5", output: "2" },
       { input: "15", output: "4" }
@@ -90,6 +92,7 @@ print(count_ones(5))`
     ],
     points: 200,
     tags: ["Strings", "Two Pointers", "Optimization"],
+    showTags : false,
     examples: [
       { input: `"racecar"`, output: "true" },
       { input: `"hello"`, output: "false" }
@@ -130,6 +133,7 @@ print(is_palindrome("Was it a car or a cat I saw"))`
     ],
     points: 200,
     tags: ["Dynamic Programming", "Mathematics", "Array", "optimization"],
+    showTags : false,
     examples: [
       { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" }
     ],
@@ -186,6 +190,7 @@ print(max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4]))`
     ],
     points: 200,
     tags: ["Dynamic Programming", "Mathematics", "Array", "optimization"],
+    showTags : false,
     examples: [
       { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },
       { input: "[-2,1,-3,4,-1,2,1,-5,4]", output: "6" },

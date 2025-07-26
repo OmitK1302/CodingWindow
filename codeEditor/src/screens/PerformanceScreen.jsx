@@ -18,7 +18,7 @@ function PerformanceScreen() {
       <main className='w-full mx-auto px-4 py-6 flex flex-col gap-6'>
         <ScoreSummary data = {scoreSummaryData}/>
         <TopicBreakdown />
-        <Performance data = {performanceData} />
+        {/* <Performance data = {performanceData} /> */}
         <NextSteps />
       </main>
       
