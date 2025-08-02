@@ -72,8 +72,8 @@ const CodeEditor = ({question}) => {
         setOutput("Code executed successfully!\nOutput: 42");
     };
 
-    const debugHandler = () => {
-        setOutput("Debug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked\nDebug clicked");
+    const submitCodeHandler = () => {
+        setOutput("submit clicked\nsubmit clicked\nsubmit clicked\nsubmit clicked\nsubmit clicked\nsubmit clicked\nsubmit clicked");
     }
 
     return (
@@ -123,9 +123,9 @@ const CodeEditor = ({question}) => {
                     </button>
 
                     <button
-                    onClick={debugHandler}
+                    onClick={submitCodeHandler}
                     className="bg-[#155dfc] hover:bg-[#0f4ac9] px-4 py-2 rounded cursor-pointer">
-                        Debug
+                        Submit
                     </button>
                 </div>
 

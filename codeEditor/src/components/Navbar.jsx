@@ -54,7 +54,7 @@ const Navbar = ({problems, currProb, changeQuesHandler, setQue_no}) => {
 
 
                 <div className='flex flex-row-reverse gap-2'>
-                    <button className='px-4 cursor-pointer bg-[#155dfc] text-white rounded-sm' onClick={() => submitHandler()}> Submit </button>
+                    <button className='px-4 cursor-pointer bg-[#155dfc] text-white rounded-sm' onClick={() => submitHandler()}> Finish Test </button>
                     <Timer />
                 </div>
             </div>

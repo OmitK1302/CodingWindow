@@ -60,6 +60,7 @@ const TestScreen = () => {
           setQue_no={setQue_no}
         />
       </nav>
+      <div className="h-1.2" />
 
       {/* Main Content Area */}
       <div
@@ -67,7 +68,7 @@ const TestScreen = () => {
         onMouseMove={onDrag}
         onMouseUp={stopDrag}
         onMouseLeave={stopDrag}
-        className='flex lg:flex-row flex-col pt-12 h-screen w-full overflow-auto'
+        className='flex lg:flex-row flex-col pt-12 h-screen w-full lg:overflow-hidden overflow-auto'
       >
         {/* Question Panel */}
         <div
